@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <h3><abbr title="Back to previous site"><a href="index.html">&nbsp;&nbsp;&nbsp;← Back</a></abbr></h3>
+    <article id="Contact">
+        <h2><u>Contact Details</u></h2>
+        <p>If you have any questions or feedback, Just drop a form</p>
+        <p>Email: <u>aryanso7067@gmail.com</u></p>
+        <p>Phone: 91+ 7067153886</p>
+        <p>Address: pawan puri colony near teen imli,Indore</p>
+
+        <form action="https://httpbin.org/get" method="get">
+
+            <br><br>
+            <hr>
+            <br><br>
+            <fieldset>
+                <legend>Contact Form</legend>
+                <p>
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name" placeholder="Enter Your Name" autocomplete="on" required
+                        autofocus>
+                </p>
+
+                <p>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" placeholder="Enter Your Email" required>
+                </p>
+
+                <p>
+                    <label for="subject">Subject:</label>
+                    <select name="subject" id="subject" required>
+                        <option value="">Select a subject</option>
+                        <option value="general">Bug Report</option>
+                        <option value="project">Want this Project</option>
+                        <option value="feedback">Feedback</option>
+                        <option value="support">Support</option>
+                    </select>
+                </p>
+
+                <p>
+                    <label id="message-label" for="message">Message:</label>
+                    <textarea name="message" id="message" placeholder="Enter Your Message" required></textarea>
+                </p>
+
+
+
+                <footer>
+                    <button type="submit">Submit</button>
+                </footer>
+            </fieldset>
+        </form>
+    </article>
+</body>
+
+</html>
